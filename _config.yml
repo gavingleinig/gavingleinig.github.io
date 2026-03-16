@@ -4,15 +4,12 @@ name: Gavin Gleinig
 description: "Master of Computer Science | Machine Learning & Data Science"
 
 # Theme Settings
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+remote_theme: "mmistakes/minimal-mistakes@4.28.0"
 minimal_mistakes_skin: "default"
 
 plugins:
-  - jekyll-remote-theme
   - jekyll-include-cache
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-paginate
+  - jekyll-remote-theme
   
 author:
   name     : "Gavin Gleinig"
