@@ -1,0 +1,30 @@
+# Welcome to Jekyll!
+title: Gavin Gleinig
+name: Gavin Gleinig
+description: "Master of Computer Science | Machine Learning & Data Science"
+
+# Theme Settings
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "default"
+
+author:
+  name     : "Gavin Gleinig"
+  avatar   : "/assets/images/bio-photo.jpg"
+  bio      : "MS CS at Texas A&M with a focus on Deep Learning and Computer Vision."
+  location : "Texas"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:gavingleinig@gmail.com"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/gavingleinig"
+    # Add LinkedIn URL here later!
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
