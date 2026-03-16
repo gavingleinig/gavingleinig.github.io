@@ -7,6 +7,12 @@ description: "Master of Computer Science | Machine Learning & Data Science"
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin: "default"
 
+plugins:
+  - jekyll-include-cache
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+  
 author:
   name     : "Gavin Gleinig"
   avatar   : "/assets/images/bio-photo.jpg"
