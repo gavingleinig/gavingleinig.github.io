@@ -1,0 +1,25 @@
+# Raw project working folders (assets and reports are committed under assets/)
+/P1 - AI Sec/
+/P2 - Gaus Splat/
+/P3 - LLM RAG/
+
+# Jekyll build output
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+
+# Bundler / Ruby
+.bundle/
+vendor/
+Gemfile.lock
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Claude local state
+.claude/

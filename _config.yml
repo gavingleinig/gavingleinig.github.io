@@ -1,21 +1,30 @@
-# Welcome to Jekyll!
+# Site settings
 title: Gavin Gleinig
 name: Gavin Gleinig
-description: "Master of Computer Science | Machine Learning & Data Science"
+description: "Master of Computer Science | Deep Learning, Computer Vision, ML"
+url: "https://gavingleinig.github.io"
+repository: "gavingleinig/gavingleinig.github.io"
+search: true
 
-# Theme Settings
+# Theme
 remote_theme: "mmistakes/minimal-mistakes@4.28.0"
 minimal_mistakes_skin: "default"
 
 plugins:
   - jekyll-include-cache
   - jekyll-remote-theme
-  
+  - jekyll-sitemap
+
+# Hide the theme's default RSS feed atom link
+atom_feed:
+  hide: true
+
+# Author / sidebar profile
 author:
   name     : "Gavin Gleinig"
   avatar   : "/assets/images/bio-photo.jpg"
-  bio      : "MS CS at Texas A&M with a focus on Deep Learning and Computer Vision."
-  location : "Texas"
+  bio      : "MS Computer Science at Texas A&M. Deep Learning, Computer Vision, and ML."
+  location : "College Station, Texas"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -23,8 +32,27 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/gavingleinig"
-    # Add LinkedIn URL here later!
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/gavin-gleinig"
 
+# Footer
+footer:
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:gavingleinig@gmail.com"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/gavingleinig"
+
+# Collections
+collections:
+  portfolio:
+    output: true
+    permalink: /projects/:path/
+
+# Defaults
 defaults:
   - scope:
       path: ""
@@ -32,3 +60,21 @@ defaults:
     values:
       layout: single
       author_profile: true
+      show_date: false
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: true
+      share: false
+      toc: true
+      toc_sticky: true
+      show_date: false
+
+# Include _pages so files there are routed by their permalink/front-matter
+include:
+  - _pages
+
+# Build
+markdown: kramdown
