@@ -1,0 +1,27 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
+
+/* Four project cards as a 2x2 grid instead of the theme's three across */
+@media (min-width: 37.5em) {
+  .feature__wrapper .feature__item,
+  .feature__wrapper .feature__item:nth-child(3n+1),
+  .feature__wrapper .feature__item:nth-child(3n+2),
+  .feature__wrapper .feature__item:nth-child(3n+3) {
+    width: 48%;
+    margin-left: 0;
+    margin-bottom: 2em;
+    clear: none;
+  }
+  .feature__wrapper .feature__item:nth-child(2n) {
+    margin-left: 4%;
+  }
+  .feature__wrapper .feature__item:nth-child(2n+1) {
+    clear: both;
+  }
+}
