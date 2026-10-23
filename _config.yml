@@ -24,7 +24,7 @@ author:
   name     : "Gavin Gleinig"
   avatar   : "/assets/images/bio-photo.jpg"
   bio      : "Software and ML engineer. MS Computer Science, Texas A&M."
-  location : "College Station, Texas"
+  location : "Portland, Texas"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"

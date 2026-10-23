@@ -5,40 +5,40 @@ permalink: /
 author_profile: true
 feature_row:
   - image_path: /assets/images/p1-card.png
-    alt: "SleeperDiff framework diagram"
+    alt: "Original and transformed images from the attack"
     title: "SleeperDiff"
-    excerpt: "Adversarial images that look normal until a specific edit, like a blur, gets applied. Built on Stable Diffusion. Under blur it worked 72% of the time, under scaling almost never, and it transferred poorly to other models. The report says why. AI Security course, team of three. [Code on GitHub](https://github.com/gavingleinig/semantic-transformation-adv-attack)"
+    excerpt: "Images that fool a classifier only after they get blurred. It worked 72% of the time under blur and almost never under scaling. Team of three. [Code](https://github.com/gavingleinig/semantic-transformation-adv-attack)"
     url: /assets/reports/p1-sleeperdiff.pdf
     btn_label: "Report (PDF)"
     btn_class: "btn--primary"
   - image_path: /assets/images/p2-card.png
     alt: "Sparse-view Gaussian splatting comparison"
     title: "Wheat Fields from Four Photos"
-    excerpt: "3D models of a wheat plot from only four camera angles, with a diffusion model I fine-tuned on the scene filling in what the cameras missed. PSNR went from 18.4 to 25.9 over the sparse baseline. Computer Vision course."
+    excerpt: "3D models of a wheat plot from just four camera angles, with a fine-tuned diffusion model filling in what the cameras missed."
     url: /assets/reports/p2-wheat-results.pdf
     btn_label: "Write-up (PDF)"
     btn_class: "btn--primary"
   - image_path: /assets/images/p4-card.png
-    alt: "Mean cluster metrics across taxonomic levels"
+    alt: "Illustration of single-linkage clustering by cutting the longest spanning-tree edges"
     title: "Faster Clustering with Approximate MSTs"
-    excerpt: "Single-linkage clustering normally needs an exact minimum spanning tree, which means every pairwise distance. We implemented a subquadratic approximation in Julia and tested whether its trees are good enough to cluster with. On synthetic data it nearly matched the exact tree, on noisy genomic data it did better, and on recipes nothing worked. Algorithms course, team of two. [Code on GitHub](https://github.com/gavingleinig/MFC-Julia)"
+    excerpt: "A faster, approximate way to do single-linkage clustering, written in Julia. It held up on synthetic and genomic data and fell apart on recipes. Team of two. [Code](https://github.com/gavingleinig/MFC-Julia)"
     url: /assets/reports/p4-mst-clustering.pdf
     btn_label: "Report (PDF)"
     btn_class: "btn--primary"
   - image_path: /assets/images/p3-card.png
-    alt: "RAG privacy policy classification dataflow"
+    alt: "A privacy policy segment with its labels highlighted"
     title: "RAG for Privacy Policies"
-    excerpt: "Does handing GPT-3.5 the actual GDPR text help it classify privacy policies? Mostly no, but it cut the segments the model gave up on by about half. Data Analytics and Cyber Security course, team of two."
+    excerpt: "Does giving GPT-3.5 the GDPR text help it label privacy policies? Mostly no. Team of two."
     url: /assets/reports/p3-rag-privacy.pdf
     btn_label: "Report (PDF)"
     btn_class: "btn--primary"
 ---
 
-I'm Gavin. I finished my Master's in Computer Science at Texas A&M in May 2026, a year after my B.S. there.
+I'm Gavin. I finished my Master's in Computer Science at Texas A&M in May 2026.
 
-Since graduating I've been doing independent consulting for a few small businesses in Texas. I sit with the owner or the bookkeeper, work out what is actually slowing them down, then build it: a warehouse that joins a restaurant's sales, payroll and arcade feeds into a daily scorecard, a pipeline that turns handwritten field test sheets into database records, a support inbox that sorts its own mail. I build mostly in Python and SQL, with agentic coding tools doing a lot of the typing. I'm now looking for a full-time engineering role on a team working on hard problems.
+Since then I've been building software for a few small businesses in Texas. I sit down with the people who'll use it, figure out what's slowing them down, and build the fix, mostly in Python and SQL with agentic coding tools. I'm looking for a full-time engineering role on a team working on hard problems.
 
-In school I gravitated toward computer vision and security, and especially where the two meet. Below are four graduate projects. The reports say what did not work as well as what did.
+Below are four grad school projects. The reports cover what didn't work as well as what did.
 
 {% include feature_row %}
 
