@@ -21,14 +21,14 @@ feature_row:
   - image_path: /assets/images/p4-card.png
     alt: "Mean cluster metrics across taxonomic levels"
     title: "Faster Clustering with Approximate MSTs"
-    excerpt: "Single-linkage clustering normally needs an exact minimum spanning tree, which means every pairwise distance. We implemented a subquadratic approximation in Julia and tested whether its trees are good enough to cluster with. On synthetic data it nearly matched the exact tree, on noisy genomic data it did better, and on recipes nothing worked. Algorithms course, written with Brendan Larson. [Code on GitHub](https://github.com/gavingleinig/MFC-Julia)"
+    excerpt: "Single-linkage clustering normally needs an exact minimum spanning tree, which means every pairwise distance. We implemented a subquadratic approximation in Julia and tested whether its trees are good enough to cluster with. On synthetic data it nearly matched the exact tree, on noisy genomic data it did better, and on recipes nothing worked. Algorithms course, team of two. [Code on GitHub](https://github.com/gavingleinig/MFC-Julia)"
     url: /assets/reports/p4-mst-clustering.pdf
     btn_label: "Report (PDF)"
     btn_class: "btn--primary"
   - image_path: /assets/images/p3-card.png
     alt: "RAG privacy policy classification dataflow"
     title: "RAG for Privacy Policies"
-    excerpt: "Does handing GPT-3.5 the actual GDPR text help it classify privacy policies? Mostly no, but it cut the segments the model gave up on by about half. Written with Tristan Lanclos."
+    excerpt: "Does handing GPT-3.5 the actual GDPR text help it classify privacy policies? Mostly no, but it cut the segments the model gave up on by about half. Data Analytics and Cyber Security course, team of two."
     url: /assets/reports/p3-rag-privacy.pdf
     btn_label: "Report (PDF)"
     btn_class: "btn--primary"
