@@ -1,10 +1,10 @@
 # Site settings
 title: Gavin Gleinig
 name: Gavin Gleinig
-description: "Master of Computer Science | Deep Learning, Computer Vision, ML"
+description: "Software and ML engineer. MS Computer Science, Texas A&M."
 url: "https://gavingleinig.github.io"
 repository: "gavingleinig/gavingleinig.github.io"
-search: true
+search: false
 
 # Theme
 remote_theme: "mmistakes/minimal-mistakes@4.28.0"
@@ -23,7 +23,7 @@ atom_feed:
 author:
   name     : "Gavin Gleinig"
   avatar   : "/assets/images/bio-photo.jpg"
-  bio      : "MS Computer Science at Texas A&M. Deep Learning, Computer Vision, and ML."
+  bio      : "Software and ML engineer. MS Computer Science, Texas A&M."
   location : "College Station, Texas"
   links:
     - label: "Email"
@@ -46,11 +46,6 @@ footer:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/gavingleinig"
 
-# Collections
-collections:
-  portfolio:
-    output: true
-    permalink: /projects/:path/
 
 # Defaults
 defaults:
@@ -61,20 +56,7 @@ defaults:
       layout: single
       author_profile: true
       show_date: false
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: false
-      toc: true
-      toc_sticky: true
-      show_date: false
 
-# Include _pages so files there are routed by their permalink/front-matter
-include:
-  - _pages
 
 # Build
 markdown: kramdown
