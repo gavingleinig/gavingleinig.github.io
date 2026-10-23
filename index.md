@@ -5,7 +5,7 @@ permalink: /
 author_profile: true
 feature_row:
   - image_path: /assets/images/p1-card.png
-    alt: "Original and transformed images from the attack"
+    alt: "Attacked images shown original, lightly blurred and heavily blurred"
     title: "SleeperDiff"
     excerpt: "Images that fool a classifier only after they get blurred. It worked 72% of the time under blur and almost never under scaling. Team of three. [Code](https://github.com/gavingleinig/semantic-transformation-adv-attack)"
     url: /assets/reports/p1-sleeperdiff.pdf
