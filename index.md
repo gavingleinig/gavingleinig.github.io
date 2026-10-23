@@ -26,7 +26,7 @@ feature_row:
     btn_label: "Report (PDF)"
     btn_class: "btn--primary"
   - image_path: /assets/images/p3-card.png
-    alt: "A privacy policy segment with its labels highlighted"
+    alt: "A real OPP-115 policy segment, the retrieval pipeline, and its correct labels"
     title: "RAG for Privacy Policies"
     excerpt: "Does giving GPT-3.5 the GDPR text help it label privacy policies? Mostly no. Team of two."
     url: /assets/reports/p3-rag-privacy.pdf
